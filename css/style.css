@@ -33,5 +33,10 @@ body{
                 top: 12px;
                 left: 20px; 
             }
-
+            .i_arrow{
+                font-size: 14px;
+                right: 14px;
+                transition: 0.5s;
+            }
+                        
 
