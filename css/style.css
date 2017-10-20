@@ -92,3 +92,12 @@ body{
 .submenu-items > i{
     left: 20px;
 }
+.triangle{
+    width: 0px;
+    height: 0px;
+    margin-left: 271px;
+    border-top: 11px solid transparent;
+    border-left: 11px solid transparent;
+    border-bottom: 11px solid rgba(255, 255, 255, 0.9);
+    border-right: 11px solid transparent;
+}
