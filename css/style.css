@@ -38,5 +38,11 @@ body{
                 right: 14px;
                 transition: 0.5s;
             }
-                        
+            .i_mail{
+                transform: scaleY(0.85);
+            }
+
+            .i_home{
+                transform: scaleY(1.12);
+            }            
 
