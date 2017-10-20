@@ -123,3 +123,20 @@ i{
     left: 50%;
     transform: translate(-50%);
 }
+.user-container{
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 50px;
+    background-color: red;
+}
+
+.user-number{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: darkblue;
+}
