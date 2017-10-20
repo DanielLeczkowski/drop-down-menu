@@ -26,7 +26,6 @@ body{
             display: flex;
             align-items: center;
             cursor: pointer;
-
         }
             .i_menu{
                 font-size: 18px;
@@ -41,11 +40,9 @@ body{
             .i_mail{
                 transform: scaleY(0.85);
             }
-
             .i_home{
                 transform: scaleY(1.12);
             }            
-
 .circle{
     position: absolute;
     width: 20px;
@@ -83,7 +80,6 @@ body{
     border-radius: 0 0 3px 3px;
     height: 50px;
 }
-
 .submenu-items:hover{
     background-color: rgba(255, 255, 255, 0.85);
     border-left: solid 4px #3ea6fd;
@@ -94,7 +90,6 @@ body{
 .submenu-items:hover i{
     left: 16px;
 }
-
 .submenu-items > i{
     left: 20px;
 }
@@ -110,15 +105,12 @@ body{
 .submenu-items > i{
     left: 20px;
 }
-
-
 i{  
     position: absolute;
     font-size: 20px;
     z-index: 1;
     color: #7d7988;
 }
-
 .user-data{
     position: absolute;
     left: 70%;
@@ -126,9 +118,7 @@ i{
     width: 300px;
     height: 300px;
     background-color: rgba(38, 41, 82, 0.19);
-    
 }
-
 .btn{
     position: absolute;
     left: 50%;
@@ -140,7 +130,6 @@ i{
     margin-top: 50px;
     background-color: red;
 }
-
 .user-number{
     width: 30px;
     height: 30px;
