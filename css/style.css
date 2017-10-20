@@ -8,5 +8,12 @@ body{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.7px;
-
+}
+.main-container{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+}
 
