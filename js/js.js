@@ -42,7 +42,6 @@ $(document).ready(function(){
                     $('.nav-menu > a').css('color', 'rgba(255, 255, 255, 0.9)');
                     $('.nav-menu > i').css('color', 'rgba(255, 255, 255, 0.9)');
                     arrowDown.css('transform', 'rotate(-180deg)');
-                    
         } else {
                     $this.removeClass('open');
                     navMenu.css('background-color', 'rgba(255, 255, 255, 0.9)');
@@ -53,70 +52,18 @@ $(document).ready(function(){
                     arrowDown.css('transform', 'rotate(0deg)');
         }
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         let button = $('.btn');
+        button.click(function(){
+        let $this = $(this);
+        $this.toggleClass('button-open');
+        if($this.hasClass('button-open')){
+            $this.text('Hide Users Data');
+            $('.user-data').append(`
+            `);
+        }
+        else{
+            $this.removeClass('button-open');
+            $this.text('Show Users Data');
+        }
+    });
 });
